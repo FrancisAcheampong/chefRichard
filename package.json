@@ -1,14 +1,13 @@
 {
-  "name": "chefweb",
-  "version": "1.0.0",
-  "description": "chef's website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "francis",
-  "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+    "name": "chefweb",
+    "version": "1.0.0",
+    "description": "chef's website",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    },
+    "homepage": "https://francisacheampong.github.io/chefRichard/ ",
+    "author": "francis",
+    "license": "ISC"
+
 }
