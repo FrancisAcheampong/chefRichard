@@ -7,3 +7,7 @@ $(function() {
         }
     });
 });
+
+function myFunction() {
+    location.href = 'https://francisacheampong.github.io/chefRichard/';
+}
